@@ -2,14 +2,14 @@ const i18n = {
   en: {
     lang: 'en',
     toggle: 'PT',
-    title: 'Pedro Bertoluchi | Mid-level .NET Engineer',
-    description: 'Pedro Bertoluchi - Mid-level C#/.NET Software Engineer architecting mission-critical systems, secure integrations, and API governance layers.'
+    title: 'Pedro Bertoluchi | Mid-Level .NET Engineer',
+    description: 'Pedro Bertoluchi - Mid-Level C#/.NET Software Engineer building reliable systems, secure integrations, and API governance layers.'
   },
   pt: {
     lang: 'pt-BR',
     toggle: 'EN',
     title: 'Pedro Bertoluchi | Engenheiro Pleno .NET',
-    description: 'Pedro Bertoluchi - Engenheiro de Software Pleno C#/.NET arquitetando sistemas de missão crítica, integrações seguras e camadas de governança de APIs.'
+    description: 'Pedro Bertoluchi - Engenheiro de Software Pleno C#/.NET construindo sistemas confiáveis, integrações seguras e camadas de governança de APIs.'
   }
 };
 
@@ -21,8 +21,8 @@ const selectorText = {
   '.top-nav nav a[href="#contact"]': { en: 'Contact', pt: 'Contato' },
   '.nav-cta': { en: "Let's Talk", pt: 'Vamos Conversar' },
   
-  '.hero .kicker': { en: 'Mid-level .NET Software Engineer \u2014 Architecture, Integrations & Greenfield Delivery', pt: 'Engenheiro de Software Pleno .NET \u2014 Arquitetura, Integra\u00e7\u00f5es e Entrega Greenfield' },
-  '.hero-sub': { en: 'I drive the complete technical lifecycle: from designing robust backend architectures and API control layers (APIM) to shipping high-performance systems. I focus on reliability, zero-trust security, and measurable business impact.', pt: 'Lidero o ciclo de vida t\u00e9cnico: do design da arquitetura de backend e camada de controle (APIM) at\u00e9 a entrega em produ\u00e7\u00e3o. Meu foco \u00e9 performance, seguran\u00e7a zero-trust e impacto mensur\u00e1vel de neg\u00f3cio.' },
+  '.hero .kicker': { en: 'Mid-Level .NET Software Engineer \u2014 APIs, Integrations & Greenfield Delivery', pt: 'Engenheiro de Software Pleno .NET \u2014 APIs, Integra\u00e7\u00f5es e Entrega Greenfield' },
+  '.hero-sub': { en: 'I work across the technical lifecycle: from designing robust backends and API control layers (APIM) to shipping high-performance systems. I focus on reliability, zero-trust security, and measurable business impact.', pt: 'Atuo em todo o ciclo t\u00e9cnico: do design de backends robustos e camadas de controle de API (APIM) at\u00e9 a entrega de sistemas de alta performance. Meu foco \u00e9 confiabilidade, seguran\u00e7a zero-trust e impacto mensur\u00e1vel no neg\u00f3cio.' },
   '.hero-actions a.btn.solid:not(.alt)': { en: 'View Case Studies', pt: 'Ver Estudos de Caso' },
   '.hero-actions a.btn.solid.alt': { en: "Let's Connect", pt: 'Vamos Conversar' },
   
@@ -31,7 +31,7 @@ const selectorText = {
   '.trust-strip li:nth-of-type(5)': { en: 'Performance Optimization', pt: 'Otimiza\u00e7\u00e3o de Performance' },
 
   '.hero-card h2': { en: 'Technical Capabilities', pt: 'Capacidades T\u00e9cnicas' },
-  '.hero-card > p': { en: 'End-to-end ownership: from whiteboard architecture to production observability.', pt: 'Atua\u00e7\u00e3o de ponta a ponta: da arquitetura no quadro branco \u00e0 observabilidade em produ\u00e7\u00e3o.' },
+  '.hero-card > p': { en: 'End-to-end execution: from whiteboard architecture to production observability.', pt: 'Atua\u00e7\u00e3o de ponta a ponta: da arquitetura no quadro branco \u00e0 observabilidade em produ\u00e7\u00e3o.' },
   
   '.stat-grid article:nth-of-type(1) h3': { en: 'Accelerated', pt: 'Ciclos \u00c1geis' },
   '.stat-grid article:nth-of-type(1) p': { en: 'Lean MVP cycles', pt: 'Entregas Lean/MVP' },
@@ -44,11 +44,11 @@ const selectorText = {
 
   '#about .kicker': { en: 'About', pt: 'Sobre' },
   '#about h2': { en: 'Pedro Bertoluchi', pt: 'Pedro Bertoluchi' },
-  '.about-headline': { en: 'Architecting secure .NET systems and enforcing robust API governance.', pt: 'Arquitetando sistemas .NET seguros e implementando governan\u00e7a robusta de APIs.' },
+  '.about-headline': { en: 'Building secure .NET systems and enforcing robust API governance.', pt: 'Construindo sistemas .NET seguros e implementando governan\u00e7a robusta de APIs.' },
   '.about-body': { en: "I'm Pedro, a software engineer with deep expertise in the .NET and Azure ecosystems. I specialize in designing distributed architectures, enforcing API governance (Azure API Management), and delivering secure full-stack platforms. My pragmatism drives my code: I prioritize observability, frictionless integrations, and building systems that remain resilient under heavy operational stress.", pt: 'Sou Pedro, engenheiro de software focado no ecossistema .NET e Azure. Especializo-me em desenhar arquiteturas distribu\u00eddas, implementar governan\u00e7a de APIs (Azure API Management) e entregar plataformas full-stack seguras. Meu pragmatismo dita meu c\u00f3digo: foco em observabilidade, integra\u00e7\u00f5es sem atrito e sistemas que operam com resili\u00eancia sob estresse operacional.' },
   
   '.highlight-card h3': { en: 'What I deliver', pt: 'O que eu entrego' },
-  '.highlight-card li:nth-of-type(1)': { en: 'Technical leadership for greenfield initiatives: from whiteboard architecture to production rollout.', pt: 'Lideran\u00e7a t\u00e9cnica greenfield: da defini\u00e7\u00e3o arquitetural ao rollout em produ\u00e7\u00e3o.' },
+  '.highlight-card li:nth-of-type(1)': { en: 'Strong technical execution for greenfield initiatives: from whiteboard architecture to production rollout.', pt: 'Execu\u00e7\u00e3o t\u00e9cnica forte em iniciativas greenfield: da defini\u00e7\u00e3o arquitetural ao rollout em produ\u00e7\u00e3o.' },
   '.highlight-card li:nth-of-type(2)': { en: 'Azure APIM Gateway implementation: enforcing centralized traffic control, abuse protection, and standardized telemetry.', pt: 'Implementa\u00e7\u00e3o de Gateways APIM: centraliza\u00e7\u00e3o de tr\u00e1fego, prote\u00e7\u00e3o contra abusos e telemetria padronizada.' },
   '.highlight-card li:nth-of-type(3)': { en: 'Enterprise integration optimization: reducing architectural friction and boosting reliability via messaging and Redis.', pt: 'Otimiza\u00e7\u00e3o de integra\u00e7\u00f5es corporativas: reduzindo atrito e aumentando a confiabilidade com mensageria e Redis.' },
   '.highlight-card li:nth-of-type(4)': { en: 'AI/RAG automation flows that reduced operational document retrieval time and improved decision-making.', pt: 'Automa\u00e7\u00e3o via IA/RAG que reduziu o tempo de busca por documenta\u00e7\u00f5es e melhorou a tomada de decis\u00e3o.' },
@@ -104,8 +104,8 @@ const selectorText = {
   
   '#strengths .kicker': { en: 'Why Work With Me', pt: 'Por Que Trabalhar Comigo' },
   '#strengths .section-head h2': { en: 'What I bring to every project', pt: 'O que eu trago para cada projeto' },
-  '#strengths .strength-card:nth-of-type(1) h3': { en: 'End-to-End Ownership', pt: 'Ownership de Ponta a Ponta' },
-  '#strengths .strength-card:nth-of-type(1) p': { en: 'I take full technical ownership, from initial whiteboard architecture to continuous deployment and production observability.', pt: 'Assumo responsabilidade t\u00e9cnica total, da arquitetura inicial ao deploy cont\u00ednuo e observabilidade em produ\u00e7\u00e3o.' },
+  '#strengths .strength-card:nth-of-type(1) h3': { en: 'End-to-End Execution', pt: 'Atua\u00e7\u00e3o de Ponta a Ponta' },
+  '#strengths .strength-card:nth-of-type(1) p': { en: 'I contribute across the full technical lifecycle, from initial architecture discussions to deployment and production observability.', pt: 'Atuo em todo o ciclo t\u00e9cnico, das discuss\u00f5es de arquitetura ao deploy e observabilidade em produ\u00e7\u00e3o.' },
   '#strengths .strength-card:nth-of-type(2) h3': { en: 'Security & Governance', pt: 'Seguran\u00e7a e Governan\u00e7a' },
   '#strengths .strength-card:nth-of-type(2) p': { en: 'I treat APIs as critical infrastructure, enforcing strict governance, zero-trust security, and rate limiting via Azure APIM.', pt: 'Trato APIs como infraestrutura cr\u00edtica, aplicando governan\u00e7a estrita, seguran\u00e7a zero-trust e rate limiting via Azure APIM.' },
   '#strengths .strength-card:nth-of-type(3) h3': { en: 'Operational Efficiency', pt: 'Efici\u00eancia Operacional' },
@@ -129,20 +129,20 @@ const selectorText = {
   '#stack .stack-card:nth-of-type(4) p': { en: 'Secure Blazor Web applications, providing rich interactive UIs natively integrated with .NET backends.', pt: 'Aplica\u00e7\u00f5es seguras em Blazor Web, fornecendo UIs interativas integradas nativamente a backends .NET.' },
   
   '#contact h2': { en: "Let's discuss your next technical initiative", pt: 'Vamos discutir sua pr\u00f3xima iniciativa t\u00e9cnica' },
-  '#contact p': { en: "Looking for a Mid-level .NET Engineer to architect your backend or lead greenfield projects? Let's talk.", pt: 'Procurando um Engenheiro Pleno .NET para arquitetar seu backend ou liderar projetos greenfield? Vamos conversar.' },
+  '#contact p': { en: "Looking for a Mid-Level .NET Engineer to build reliable backends and accelerate greenfield delivery? Let's talk.", pt: 'Procurando um Engenheiro Pleno .NET para construir backends confi\u00e1veis e acelerar entregas greenfield? Vamos conversar.' },
   '#contact .btn.solid:not(.alt)': { en: 'Send Email', pt: 'Enviar Email' },
   '#contact .btn.solid.alt': { en: 'GitHub Profile', pt: 'Perfil no GitHub' },
-  'footer p': { en: 'Pedro Bertoluchi \u2014 Mid-level .NET Software Engineer', pt: 'Pedro Bertoluchi \u2014 Engenheiro de Software Pleno .NET' }
+  'footer p': { en: 'Pedro Bertoluchi \u2014 Mid-Level .NET Software Engineer', pt: 'Pedro Bertoluchi \u2014 Engenheiro de Software Pleno .NET' }
 };
 
 const selectorHtml = {
   '.hero-left h1': {
-    en: 'Architecting mission-critical systems, secure integrations, and API governance layers in <span>.NET</span> and <span>Azure</span>.',
-    pt: 'Arquitetando sistemas de miss\u00e3o cr\u00edtica, integra\u00e7\u00f5es seguras e governan\u00e7a de APIs em <span>.NET</span> e <span>Azure</span>.'
+    en: 'Building reliable <span>.NET</span> and <span>Azure</span> systems, secure integrations, and API governance layers.',
+    pt: 'Construindo sistemas confi\u00e1veis em <span>.NET</span> e <span>Azure</span>, integra\u00e7\u00f5es seguras e camadas de governan\u00e7a de APIs.'
   },
   '.about-details li:nth-of-type(1)': {
-    en: '<strong>Role:</strong> Mid-level .NET Engineer (Architecture, APIs, Enterprise Integrations)',
-    pt: '<strong>Fun\u00e7\u00e3o:</strong> Engenheiro Pleno .NET (Arquitetura, APIs, Integra\u00e7\u00f5es Corporativas)'
+    en: '<strong>Role:</strong> Mid-Level .NET Engineer (APIs, Azure, Enterprise Integrations)',
+    pt: '<strong>Fun\u00e7\u00e3o:</strong> Engenheiro Pleno .NET (APIs, Azure, Integra\u00e7\u00f5es Enterprise)'
   },
   '.about-details li:nth-of-type(2)': {
     en: '<strong>Location:</strong> Porto Ferreira, Sao Paulo, Brazil',
